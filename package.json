@@ -1,0 +1,15 @@
+{
+  "name": "stockflow-mvp",
+  "version": "0.1.0",
+  "description": "StockFlow MVP - SaaS Inventory Management System (6-hr build)",
+  "scripts": {
+    "setup": "cd backend && node src/db/seed.js && cd ../frontend && npm run build",
+    "seed": "cd backend && node src/db/seed.js",
+    "test": "cd backend && npm test",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && node src/index.js",
+    "dev:backend": "cd backend && node --watch src/index.js",
+    "dev:frontend": "cd frontend && npm run dev"
+  },
+  "keywords": ["inventory", "saas", "multi-tenant", "stockflow", "express", "sqlite", "react", "tailwind"]
+}

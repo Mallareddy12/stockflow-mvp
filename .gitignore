@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+dist
+*.log
+.env
+stockflow.db
+stockflow.db-wal
+stockflow.db-shm
